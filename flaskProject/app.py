@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 
 import tweepy as tp
+from textblob import TextBlob
 
 
 from twitter_auth import *
@@ -38,9 +39,9 @@ def tweetspage():  # put application's code here
     if request.method == 'POST':
         query = request.form['query']
         tweets = api.search(q=query)
-
+        print("test string", TextBlob("life is pain and shit").sentiment)
         for tweets in tweets:
-            print(tweets)
+            print(TextBlob("life is wonderful, and shit").sentiment)
             break
 
         return render_template('results.html', query = tweets)

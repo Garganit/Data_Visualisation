@@ -13,18 +13,6 @@ api = tp.API(auth)
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def index():
-    return redirect('/part1')
-
-@app.route('/part1', methods=['GET'])
-def part1():
-    return render_template('part1.html')
-
-@app.route('/part2', methods=['GET'])
-def part2():
-    return render_template('part2.html')
-
 @app.route('/part3', methods=['GET'])
 def part3():
     return render_template('part3.html')

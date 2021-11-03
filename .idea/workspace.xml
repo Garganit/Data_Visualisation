@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86f4e60-b9e7-43ee-a213-9a843fe6ba15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/flaskProject/Tweets.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/Biden.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/DataCapture.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/DataCapture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/Putin.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/Trump.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/static/images/Jeff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/templates/part1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/templates/part2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/templates/part3.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/templates/part3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/templates/part4.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/templates/part4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/templates/partials/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/templates/partials/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskProject/templates/partials/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/templates/partials/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject/Biden.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/Biden.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject/Putin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/Putin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject/Trump.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/Trump.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject/templates/Vader.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject/Vader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\A00260624\Desktop\Data_Visualisation\flaskProject" />
+      <recent name="C:\Users\A00260624\Desktop\Data_Visualisation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Vader">
     <configuration name="part1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Data_Visualisation/flaskProject/templates/part1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -79,6 +78,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskProject/DataCapture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Vader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Visualisation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskProject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskProject/Vader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,8 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.Vader" />
         <item itemvalue="Python.DataCapture" />
+        <item itemvalue="Python.app" />
         <item itemvalue="JavaScript Debug.part1.html" />
       </list>
     </recent_temporary>
@@ -128,6 +150,7 @@
       <workItem from="1633513082703" duration="1329000" />
       <workItem from="1634112394536" duration="5864000" />
       <workItem from="1634717602757" duration="5131000" />
+      <workItem from="1635930564970" duration="5640000" />
     </task>
     <servers />
   </component>
@@ -147,7 +170,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Data_Visualisation$DataCapture.coverage" NAME="DataCapture Coverage Results" MODIFIED="1634720389530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskProject" />
-    <SUITE FILE_PATH="coverage/Data_Visualisation$app.coverage" NAME="app Coverage Results" MODIFIED="1634722412590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskProject" />
+    <SUITE FILE_PATH="coverage/Data_Visualisation$Vader.coverage" NAME="Vader Coverage Results" MODIFIED="1635936239737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskProject" />
+    <SUITE FILE_PATH="coverage/Data_Visualisation$DataCapture.coverage" NAME="DataCapture Coverage Results" MODIFIED="1635932606114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskProject" />
+    <SUITE FILE_PATH="coverage/Data_Visualisation$app.coverage" NAME="app Coverage Results" MODIFIED="1635932594545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskProject" />
   </component>
 </project>
